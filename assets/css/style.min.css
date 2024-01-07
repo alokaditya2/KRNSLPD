@@ -15,6 +15,11 @@ body {
   background: #050505;
   font-family: "Grandstander", sans-serif;
 }
+
+.name {
+  width: 117px;
+  font-size: 2rem;
+}
 .container {
   max-width: 1276px;
   padding: 0 15px;
@@ -65,7 +70,7 @@ header .header__logo:hover {
   transition: 0.3s all;
 }
 header .header__logo img {
-  width: 246px;
+  width: 58px;
 }
 header .header__links {
   display: flex;

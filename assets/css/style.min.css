@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap';
+@import "https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap";
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +13,7 @@ a {
 body {
   overflow-x: hidden;
   background: #050505;
-  font-family: 'Grandstander', sans-serif;
+  font-family: "Grandstander", sans-serif;
 }
 .container {
   max-width: 1276px;
@@ -379,7 +379,7 @@ section.comment .container .comment__content {
   border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
 }
 section.comment .container .comment__content::after {
-  content: '';
+  content: "";
   max-width: 250px;
   width: 100%;
   height: 250px;
@@ -539,7 +539,10 @@ section.base .base__content .content__links .links__link svg {
 section.base .base__content .content__links .links__link.gradient {
   border-radius: 24px;
   border: 2px solid var(--f-8-f-7-ff, #f8f6ff);
-  background: var(--Linear, linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%));
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%)
+  );
   transition: 0.3s all;
 }
 section.base .base__content .content__links .links__link.gradient:hover {
@@ -705,7 +708,10 @@ section.base2 .base2__content .content__links .links__link svg {
 section.base2 .base2__content .content__links .links__link.gradient {
   border-radius: 24px;
   border: 2px solid var(--f-8-f-7-ff, #f8f6ff);
-  background: var(--Linear, linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%));
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%)
+  );
   transition: 0.3s all;
 }
 section.base2 .base2__content .content__links .links__link.gradient:hover {
@@ -720,7 +726,12 @@ section.base2 .base2__content .content__links .links__link.border:hover {
   background: #f8f6ff;
   color: #000;
 }
-section.base2 .base2__content .content__links .links__link.border:hover svg path {
+section.base2
+  .base2__content
+  .content__links
+  .links__link.border:hover
+  svg
+  path {
   fill: #000;
 }
 
@@ -741,7 +752,7 @@ section.features .container {
   position: relative;
 }
 section.features .container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: -200px;
@@ -756,7 +767,7 @@ section.features .container::after {
   z-index: -1;
 }
 section.features .container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   right: -164px;
@@ -764,7 +775,12 @@ section.features .container::before {
   height: 512.011px;
   border-radius: 883.726px;
   opacity: 0.2;
-  background: linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%);
+  background: linear-gradient(
+    99deg,
+    #fe3125 1.93%,
+    #fedc31 47.51%,
+    #d00b00 96.04%
+  );
   filter: blur(108.0999984741px);
   z-index: -1;
 }
@@ -803,7 +819,14 @@ section.features .features__grid .grid__block {
   padding: 32px;
   border-radius: 24px;
   border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
-  background: var(--Linear, linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%));
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -943,10 +966,13 @@ section.why-choose .why-choose__title {
   }
 }
 section.why-choose .why-choose__title::after {
-  content: '';
+  content: "";
   border-radius: 876.754px;
   opacity: 0.26;
-  background: var(--Linear, linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%));
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%)
+  );
   transform: rotate(89.541deg);
   filter: blur(108.0999984741px);
   max-width: 268.147px;
@@ -1034,7 +1060,14 @@ section.faq .faq__list .list__block {
   padding: 32px;
   border-radius: 24px;
   border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
-  background: var(--Linear, linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%));
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
 }
 section.faq .faq__list .list__block .block__header {
   width: 100%;
@@ -1073,17 +1106,27 @@ section.faq .faq__list .list__block .block__content {
 footer {
   border-radius: 80px 80px 0px 0px;
   border-top: 4px solid var(--f-8-f-7-ff, #f8f6ff);
-  background: var(--Linear, linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%));
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
   display: flex;
   align-items: center;
   justify-content: center;
 }
 footer::after {
-  content: '';
+  content: "";
   position: absolute;
   border-radius: 1744.768px;
   opacity: 0.26;
-  background: var(--Linear, linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%));
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%)
+  );
   filter: blur(108.0999984741px);
   max-width: 1744.768px;
   max-height: 341.704px;
@@ -1206,6 +1249,8 @@ section.calc {
   }
 }
 section.calc .container {
+  background-image: url("../img/");
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1213,11 +1258,14 @@ section.calc .container {
 }
 section.calc .container::after {
   z-index: -1;
-  content: '';
+  content: "";
   top: -300px;
   border-radius: 1312.954px;
   opacity: 0.26;
-  background: var(--Linear, linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%));
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #fe3125 1.93%, #fedc31 47.51%, #d00b00 96.04%)
+  );
   position: absolute;
   filter: blur(108.0999984741px);
   width: 283.716px;
